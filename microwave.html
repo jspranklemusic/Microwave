@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Microwave</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+<body>
+
+
+
+<div class="microWave">
+    <div class="door doorOn"></div>
+    <div class="door doorOff"></div>
+    <div class="panel">
+        <div class="displayScreen">
+            <div class="displayNum">00:00</div>
+        </div>
+
+        <div class="microwaveTitle"></div>
+        <div class="controls">
+            <div class="number number1"onclick="addNumber1(); beepAudio.play();">1</div>
+            <div class="number number2"onclick="addNumber2(); beepAudio.play();">2</div>
+            <div class="number number3"onclick="addNumber3(); beepAudio.play();">3</div>
+            <div class="number number4"onclick="addNumber4(); beepAudio.play();">4</div>
+            <div class="number number5"onclick="addNumber5(); beepAudio.play();">5</div>
+            <div class="number number6"onclick="addNumber6(); beepAudio.play();">6</div>
+            <div class="number number7"onclick="addNumber7(); beepAudio.play();">7</div>
+            <div class="number number8"onclick="addNumber8(); beepAudio.play();">8</div>
+            <div class="number number9"onclick="addNumber9(); beepAudio.play();">9</div>
+            <div id="toggle1" class="stopClear" onclick="clearFunction();"><u>STOP</u><br>CLEAR</div>
+            <div class="number number0"onclick="addNumber0(); beepAudio.play();">0</div>
+            <div id="toggle2" class="startAdd30Sec" onclick="startAdd(); beepAudio.play();"><u>START</u><br>30 SEC</div>
+    </div>
+
+
+
+    
+</div>
+
+
+<script src="script.js"></script>
+
+
+
+</body>
+</html>
